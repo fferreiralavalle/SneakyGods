@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+      "a-type.index-defaults",
+      "christian-kohler.npm-intellisense",
+      "christian-kohler.path-intellisense",
+      "dbaeumer.vscode-eslint",
+      "dsznajder.es7-react-js-snippets",
+      "eamodio.gitlens",
+      "esbenp.prettier-vscode",
+      "guillaumedoutriaux.name-that-color",
+      "naumovs.color-highlight",
+      "paulmolluzzo.convert-css-in-js",
+      "shardulm94.trailing-spaces",
+      "ue.alphabetical-sorter"
+    ]
+  }
