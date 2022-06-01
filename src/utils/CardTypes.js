@@ -6,6 +6,7 @@ export const cardTypes = {
     id: "minion",
     label: "Champion Follower",
     iconComponent: SportsKabaddi,
+    icon: "https://i.imgur.com/LZvF0js.png",
     statsInfo: {
       hasAttributes: true
     },
@@ -17,6 +18,7 @@ export const cardTypes = {
     id: "basic",
     label: "Follower",
     iconComponent: SportsKabaddi,
+    icon: "https://i.imgur.com/LZvF0js.png",
     statsInfo: {
       hasAttributes: true
     },
@@ -28,6 +30,7 @@ export const cardTypes = {
     id: "spell",
     label: "Intervention",
     iconComponent: MenuBook,
+    icon: "https://i.imgur.com/stmZt4L.png",
     statsInfo: {
     },
     heightRatio: 1.4,
@@ -38,6 +41,7 @@ export const cardTypes = {
     id: "curse",
     label: "Curse",
     iconComponent: MenuBook,
+    icon: "https://i.imgur.com/ifrETw2.png",
     statsInfo: {
     },
     heightRatio: 1,
@@ -48,6 +52,7 @@ export const cardTypes = {
     id: "blessing",
     label: "Blessing",
     iconComponent: MenuBook,
+    icon: "https://i.imgur.com/oKieTZ1.png",
     statsInfo: {
     },
     heightRatio: 1,
@@ -58,6 +63,7 @@ export const cardTypes = {
     id: "quest",
     label: "Quest",
     iconComponent: LocationCity,
+    icon: "https://i.imgur.com/qRpPYiJ.png",
     statsInfo: {
       hasAttributes: true,
     },
@@ -69,6 +75,7 @@ export const cardTypes = {
     id: "epicQuest",
     label: "Final Quest",
     iconComponent: LocationCity,
+    icon: "https://i.imgur.com/v55PodV.png",
     statsInfo: {
       hasAttributes: true,
     },
@@ -80,6 +87,7 @@ export const cardTypes = {
     id: "villain",
     label: "God",
     iconComponent: Person,
+    icon: "https://i.imgur.com/1uvxkSi.png",
     statsInfo: {
     },
     heightRatio: 1.4,// 0.715,
@@ -88,4 +96,4 @@ export const cardTypes = {
   },
 }
 
-export const GetTypeData = (type="minion") => cardTypes[type];
+export const GetTypeData = (type = "minion") => cardTypes[type];

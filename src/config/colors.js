@@ -1,5 +1,5 @@
 export default {
-    baliHai: "#8F9BB3",
+  baliHai: "#8F9BB3",
   black: "#000",
   cloudBurst: "#222B45",
   concrete: "#F2F2F2",
@@ -8,7 +8,7 @@ export default {
   dodgerBlue2: "#2196E3",
   doveGray: "#707070",
   ebonyClay: "#2A2E43",
-  cardBackground:"#1b1d27",
+  cardBackground: "#1b1d27",
   purple: "#CB00D5",
   library: "#00FFAE",
   minion: "#ffa124",
@@ -16,6 +16,7 @@ export default {
   flavourText: "#e6cfff",
   token: "#16e5ff",
   keyword: "rgb(255 0 148)",
+  player: '#FF7070',
   reveal: "#fffd52",
   villain: "#ff6f6f",
   destroy: "#FF0056",

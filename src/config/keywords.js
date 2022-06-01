@@ -6,7 +6,7 @@ export const keywords = {
   might: {
     id: "might",
     label: "Might",
-    alias: ["might","mig"],
+    alias: ["might", "mig"],
     color: colors.might,
     icon: "https://i.imgur.com/xlG4vY4.png"// GetIcon(0).icon
   },
@@ -17,54 +17,89 @@ export const keywords = {
     color: colors.geyser,
     icon: "https://i.imgur.com/FOdFbBf.png"
   },
+  temples: {
+    id: "temples",
+    label: "Temples",
+    alias: ["tems", "temples"],
+    color: colors.geyser,
+    icon: "https://i.imgur.com/FOdFbBf.png"
+  },
+  player: {
+    id: "player",
+    label: "God",
+    alias: ["god"],
+    color: colors.player,
+    icon: cardTypes.villain.icon
+  },
+  players: {
+    id: "players",
+    label: "Gods",
+    alias: ["gods"],
+    color: colors.player,
+    icon: cardTypes.villain.icon
+  },
   neighbor: {
     id: "neighbor",
     label: "Follower",
-    alias: ["fol","follower"],
+    alias: ["fol", "follower"],
     color: colors.keyword,
-    icon: "https://i.imgur.com/LZvF0js.png"
+    icon: cardTypes.minion.icon
   },
   neighbors: {
     id: "neighbors",
     label: "Followers",
-    alias: ["fols","followers"],
+    alias: ["fols", "followers"],
     color: colors.keyword,
-    icon: "https://i.imgur.com/LZvF0js.png"
+    icon: cardTypes.minion.icon
+  },
+  champion: {
+    id: "champion",
+    label: "Champion",
+    alias: ["cfol"],
+    color: colors.keyword,
+    icon: cardTypes.minion.icon
+  },
+  champions: {
+    id: "champions",
+    label: "Champions",
+    alias: ["cfols"],
+    color: colors.keyword,
+    icon: cardTypes.minion.icon
   },
   favor: {
     id: "favor",
     label: "Favor",
-    alias: ["fav","favor"],
+    alias: ["fav", "favor"],
     color: colors.minion,
     icon: GetIcon(3).icon
   },
   blessing: {
     id: "blessing",
     label: "Blessing",
-    alias: ["ble","blessing"],
+    alias: ["ble", "blessing"],
     color: colors.reveal,
-    icon: "https://i.imgur.com/oKieTZ1.png"
+    icon: cardTypes.blessing.icon
   },
   blessings: {
     id: "blessings",
     label: "Blessings",
-    alias: ["bles","blessings"],
+    alias: ["bles", "blessings"],
     color: colors.reveal,
-    icon: "https://i.imgur.com/oKieTZ1.png"
+    icon: cardTypes.blessing.icon
   },
   curse: {
     id: "curse",
     label: "Curse",
-    alias: ["cur","curse"],
+    alias: ["cur", "curse"],
     color: colors.apocalypsis,
-    icon: "https://i.imgur.com/ifrETw2.png"
+    icon: cardTypes.curse.icon
   },
   curses: {
     id: "blessings",
     label: "Curses",
-    alias: ["curs","curses"],
+    alias: ["curs", "curses"],
     color: colors.apocalypsis,
-    icon: "https://i.imgur.com/ifrETw2.png"
+    icon: cardTypes.curse.icon
   },
   destory: {
     id: "destroy",
@@ -101,25 +136,41 @@ export const keywords = {
     color: colors.destroy,
     icon: GetIcon(0).icon
   },
-  library: {
-    id: "library",
-    label: "Library",
-    alias: ["lib", "library"],
-    color: cardTypes.spell.typeColor,
-    icon: GetIcon(8).icon
-  },
   spell: {
     id: "spell",
-    label: "Spell",
-    alias: ["spe", "spell"],
+    label: "Intervention",
+    alias: ["int"],
     color: cardTypes.spell.typeColor,
+    icon: cardTypes.spell.icon
   },
-  threat: {
-    id: "threat",
-    label: "Threat Level",
-    alias: ["thr", "threat"],
-    color: colors.power,
+  spells: {
+    id: "spells",
+    label: "Interventions",
+    alias: ["ints"],
+    color: cardTypes.spell.typeColor,
+    icon: cardTypes.spell.icon
   },
+  quest: {
+    id: "quest",
+    label: "Quest",
+    alias: ["que"],
+    color: cardTypes.quest.typeColor,
+    icon: cardTypes.quest.icon
+  },
+  quests: {
+    id: "quests",
+    label: "Quests",
+    alias: ["ques"],
+    color: cardTypes.quest.typeColor,
+    icon: cardTypes.quest.icon
+  },
+  epicQuest: {
+    id: "epicQuest",
+    label: "Final Quest",
+    alias: ["fquest"],
+    color: cardTypes.epicQuest.typeColor,
+    icon: cardTypes.epicQuest.icon
+  }
 }
 
 export const GetKeyword = (id) => {
