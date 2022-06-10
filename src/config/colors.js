@@ -11,6 +11,7 @@ export default {
   cardBackground: "#1b1d27",
   purple: "#CB00D5",
   library: "#00FFAE",
+  rewards: "#4DF317",
   minion: "#ffa124",
   quest: "rgb(255 115 0)",
   flavourText: "#e6cfff",

@@ -170,6 +170,34 @@ export const keywords = {
     alias: ["fquest"],
     color: cardTypes.epicQuest.typeColor,
     icon: cardTypes.epicQuest.icon
+  },
+  rewards: {
+    id: "rewards",
+    label: "Rewards",
+    alias: ["rew"],
+    color: cardTypes.quest.typeColor,
+    icon: "https://i.imgur.com/uNSAWqb.png"
+  },
+  rewarded: {
+    id: "rewarded",
+    label: "Rewarded",
+    alias: ["rewd"],
+    color: cardTypes.quest.typeColor,
+    icon: "https://i.imgur.com/uNSAWqb.png"
+  },
+  active: {
+    id: "active",
+    label: "Active",
+    alias: ["act"],
+    color: cardTypes.quest.typeColor,
+    icon: cardTypes.quest.icon
+  },
+  activeQuest: {
+    id: "activeQuest",
+    label: "Active Quest",
+    alias: ["actq"],
+    color: cardTypes.quest.typeColor,
+    icon: cardTypes.quest.icon
   }
 }
 
